@@ -31,21 +31,6 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         new file:   templates/base.html
 
 
-#### 1.2 Modified README file
+#### 1.2 Finished app
 
-![Finished app](./config/static/assets/images/fns-app.jpg)
-
-        modified:   README.md
-
-
-### Test adding image to readme
-![Algorithm schema](./images/fns-app.jpg)
-
-
-### Test adding image to readme fron inside config
 ![Algorithm schema](./config/images/fns-app.jpg)
-
-
-
-### Test adding image to readme fron inside config/static
-![Algorithm schema](./config/static/images/fns-app.jpg)
