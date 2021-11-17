@@ -1,10 +1,10 @@
 ## BUILDING DISCORD APP, A FORUM LIKE APP, USING DJANGO V3.2
 
 This is my exercise base on the tutorials made by Dennis on Youtube.
-<a href="https://www.youtube.com/watch?v=PtQiiknWUcI&t=3930s" target="_blank">Link to Youtube</a>
-<a href="https://github.com/gurnitha/django-dennis-discordforumapplike 
-" target="_blank">My Repository on Github</a>
 
+## Links to sources:
+* [Youtube](https://www.youtube.com/watch?v=PtQiiknWUcI&t=3930s)
+* [My repository](https://github.com/gurnitha/django-dennis-discordforumapplike)
 
 
 ### 1. COMPLETE SETUP
@@ -29,3 +29,11 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         new file:   config/wsgi.py
         new file:   manage.py
         new file:   templates/base.html
+
+
+#### 1.2 Modified README file
+
+### Finished app
+![Algorithm schema](./config/static/assets/images/fns-app.jpg)
+
+        modified:   README.md
