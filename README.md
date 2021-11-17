@@ -33,7 +33,10 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
 
 #### 1.2 Modified README file
 
-### Finished app
-![Algorithm schema](./config/static/assets/images/fns-app.jpg)
+![Finished app](./config/static/assets/images/fns-app.jpg)
 
         modified:   README.md
+
+
+### Test adding image to readme
+![Algorithm schema](./images/fns-app.jpg)
