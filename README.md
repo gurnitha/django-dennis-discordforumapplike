@@ -44,3 +44,8 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
 
 ### Test adding image to readme fron inside config
 ![Algorithm schema](./config/images/fns-app.jpg)
+
+
+
+### Test adding image to readme fron inside config/static
+![Algorithm schema](./config/static/images/fns-app.jpg)
