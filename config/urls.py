@@ -8,6 +8,9 @@ from django.conf.urls.static import static
 
 urlpatterns = [
 
+    # Base
+    path('', include('apps.base.urls', namespace='base')),
+    
     # Admin
     path('admin/', admin.site.urls),
     

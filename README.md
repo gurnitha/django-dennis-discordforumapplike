@@ -34,3 +34,15 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
 #### 1.2 Finished app
 
 ![Algorithm schema](./config/images/fns-app.jpg)
+
+
+### 2. TEMPLATES, VIEWS AND URLS
+
+
+#### 2.1 Create a home page
+
+        modified:   README.md
+        modified:   apps/base/templates/base/index.html
+        new file:   apps/base/urls.py
+        modified:   apps/base/views.py
+        modified:   config/urls.py
