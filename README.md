@@ -170,6 +170,13 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         modified:   apps/room/views.py
 
 
+#### 5.3 Add logic to create_room view to process the form
+
+        modified:   README.md
+        modified:   apps/room/templates/room/room_create_update_form.html
+        modified:   apps/room/views.py
+
+
 
 
 
