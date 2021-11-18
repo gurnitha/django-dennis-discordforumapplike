@@ -4,6 +4,24 @@
 {% block title %} Home {% endblock title %}
 
 {% block content %}
-	<h1>Home page</h1>
-	<h2>ROOM</h2>
+
+
+    <main class="layout layout--3">
+        <div class="container">
+
+            <!-- Topics Start -->
+            {% include 'inc/topics.html'%}
+            <!-- Topics End -->
+
+            <!-- Room List Start -->
+            {% include 'inc/room.html'%}
+            <!-- Room List End -->
+
+            <!-- Activities Start -->
+            {% include 'inc/activities.html'%}
+            <!-- Activities End -->
+
+        </div>
+    </main>
+
 {% endblock content %}

@@ -1,12 +1,21 @@
+<!-- apps/base/templates/home/index.html -->
+{% load static %}
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Blop | {% block title %}{{block.super}}{% endblock title %}</title>
+	{% include 'inc/head.html' %}
+    <title>StudyBuddy - {% block title %}{{block.super}}{% endblock title %}</title>
 </head>
 <body>
-	{% block content %}
-	{% endblock content %}
+	<!-- Header -->
+	{% include 'inc/header.html' %}
+    <!-- Header end -->
+
+	{% block content %}{% endblock content %}
+
+    <!-- Scripts -->
+    {% include 'inc/scripts.html' %}
+    <!-- Scripts end -->
+
 </body>
 </html>
