@@ -153,7 +153,7 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
 ### 5. CRUD
 
 
-#### 5.1 Make room_create_update_form page: Templates, Views and Urls
+#### 5.1 CREATE room - Make room_create_update_form page: Templates, Views and Urls
 
         modified:   README.md
         modified:   apps/base/templates/inc/room.html
@@ -162,7 +162,7 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         modified:   apps/room/views.py
 
 
-#### 5.2 Make RoomModelForm and render it to room_create_update_form page
+#### 5.2 CREATE room - Make RoomModelForm and render it to room_create_update_form page
 
         modified:   README.md
         new file:   apps/room/model_forms.py
@@ -170,18 +170,22 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         modified:   apps/room/views.py
 
 
-#### 5.3 Add logic to create_room view to process the form
+#### 5.3 CREATE room - Add logic to create_room view to process the form
 
         modified:   README.md
         modified:   apps/room/templates/room/room_create_update_form.html
         modified:   apps/room/views.py
 
 
-#### 5.4 Add LIFO to Room model
+#### 5.4 CREATE room - Add LIFO to Room model
 
         modified:   README.md
         modified:   apps/room/models.py
 
+
+#### 5.5 Modified README file
+
+        modified:   README.md
 
 
 
