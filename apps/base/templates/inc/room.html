@@ -40,6 +40,7 @@
                 <div class="roomListRoom">
                     <div class="roomListRoom__header">
                         <a href="{% url 'room:update_room' room.id %}" class="roomListRoom__author">Edit</a>
+                        <a href="{% url 'room:delete_room' room.id %}" class="roomListRoom__author">Delete</a>
                         <a href="profile.html" class="roomListRoom__author">
                             <div class="avatar avatar--small">
                                 <img src="https://randomuser.me/api/portraits/women/11.jpg" />

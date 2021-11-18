@@ -197,7 +197,13 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         modified:   apps/room/views.py
 
 
+#### 5.7 DELETE room - delete a room instance (TVUrls) 
 
+        modified:   README.md
+        modified:   apps/base/templates/inc/room.html
+        new file:   apps/room/templates/room/delete_confirm.html
+        modified:   apps/room/urls.py
+        modified:   apps/room/views.py
 
 
 
