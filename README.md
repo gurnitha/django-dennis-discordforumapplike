@@ -188,7 +188,13 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         modified:   README.md
 
 
+#### 5.6 UPDATE room - update a room instance (TVUrls)
 
+        modified:   README.md
+        modified:   apps/base/templates/inc/room.html
+        modified:   apps/room/templates/inc/room-content.html
+        modified:   apps/room/urls.py
+        modified:   apps/room/views.py
 
 
 
