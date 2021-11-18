@@ -144,6 +144,10 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         modified:   apps/base/templates/inc/room.html
 
 
+#### 4.6 Rendering topi's title from db to room in home page
+
+        modified:   README.md
+        modified:   apps/base/templates/inc/room.html
 
 
 
