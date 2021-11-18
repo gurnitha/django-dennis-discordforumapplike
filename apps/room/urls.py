@@ -11,5 +11,6 @@ app_name = 'room'
 urlpatterns = [
 
     path('room/', views.room, name='room'),
+    path('create-room/', views.create_room, name='create_room'),
     
 ]

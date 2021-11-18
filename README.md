@@ -150,6 +150,17 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         modified:   apps/base/templates/inc/room.html
 
 
+### 5. CRUD
+
+
+#### 5.1 Make room_create_update_form page: Templates, Views and Urls
+
+        modified:   README.md
+        modified:   apps/base/templates/inc/room.html
+        new file:   apps/room/templates/room/room_create_update_form.html
+        modified:   apps/room/urls.py
+        modified:   apps/room/views.py
+
 
 
 
