@@ -162,6 +162,13 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         modified:   apps/room/views.py
 
 
+#### 5.2 Make RoomModelForm and render it to room_create_update_form page
+
+        modified:   README.md
+        new file:   apps/room/model_forms.py
+        modified:   apps/room/templates/room/room_create_update_form.html
+        modified:   apps/room/views.py
+
 
 
 
