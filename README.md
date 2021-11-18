@@ -133,6 +133,10 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         new file:   config/images/db-schema1.jpg
 
 
+#### 4.4 Database schema 1
+
+![Algorithm schema](./config/images/db-schema1.jpg)
+
 
 
 
