@@ -1,14 +1,9 @@
 <!-- apps/base/templates/home/index.html -->
+{% extends 'base.html' %}
 
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Home</title>
-</head>
-<body>
+{% block title %} Home {% endblock title %}
+
+{% block content %}
 	<h1>Home page</h1>
 	<h2>ROOM</h2>
-</body>
-</html>
+{% endblock content %}

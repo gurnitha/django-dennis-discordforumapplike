@@ -46,3 +46,11 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         new file:   apps/base/urls.py
         modified:   apps/base/views.py
         modified:   config/urls.py
+
+
+#### 2.2 Template inheritance
+
+        modified:   README.md
+        modified:   apps/base/templates/base/index.html
+        modified:   config/settings.py
+        modified:   templates/base.html
