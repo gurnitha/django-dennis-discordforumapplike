@@ -106,6 +106,18 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         modified:   apps/base/templates/inc/room.html
 
 
+### 4. MODELS
+
+
+#### 4.1 Create Room model, register it to admin and insert data to Room model in admin panel
+
+        modified:   README.md
+        modified:   apps/room/admin.py
+        new file:   apps/room/migrations/0001_initial.py
+        modified:   apps/room/models.py
+
+
+
 
 
 
