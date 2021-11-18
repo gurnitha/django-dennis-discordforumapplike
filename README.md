@@ -92,6 +92,12 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         modified:   config/urls.py
 
 
+#### 3.2 Template inheritance
+
+        modified:   README.md
+        new file:   apps/room/templates/inc/participants.html
+        renamed:    apps/base/templates/base/room.html -> apps/room/templates/inc/room-content.html
+        modified:   apps/room/templates/room/room.html
 
 
 
