@@ -117,6 +117,12 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         modified:   apps/room/models.py
 
 
+#### 4.2 Rendering room data from db to home page
+
+        modified:   README.md
+        modified:   apps/base/templates/inc/room.html
+        modified:   apps/base/views.py
+
 
 
 
