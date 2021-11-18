@@ -138,9 +138,10 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
 ![Algorithm schema](./config/images/db-schema1.jpg)
 
 
+#### 4.5 Rendering user name from db to room in home page
 
-
-
+        modified:   README.md
+        modified:   apps/base/templates/inc/room.html
 
 
 
