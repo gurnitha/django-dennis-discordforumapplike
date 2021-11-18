@@ -124,6 +124,16 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         modified:   apps/base/views.py
 
 
+#### 4.3 Create Topic and Message models, run migrations and add them to admin.py
+
+        modified:   README.md
+        modified:   apps/room/admin.py
+        new file:   apps/room/migrations/0002_auto_20211118_0913.py
+        modified:   apps/room/models.py
+        new file:   config/images/db-schema1.jpg
+
+
+
 
 
 
