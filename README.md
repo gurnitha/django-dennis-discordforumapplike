@@ -69,6 +69,27 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         new file:   templates/inc/scripts.html
 
 
+#### 2.4 Create room page - Templates, Views and Urls
+
+
+### 3. ROOM APP
+
+
+#### 3.1 Create room app and room page
+
+        modified:   README.md
+        new file:   apps/base/templates/base/room.html
+        new file:   apps/room/__init__.py
+        new file:   apps/room/admin.py
+        new file:   apps/room/apps.py
+        new file:   apps/room/migrations/__init__.py
+        new file:   apps/room/models.py
+        new file:   apps/room/templates/room/room.html
+        new file:   apps/room/tests.py
+        new file:   apps/room/urls.py
+        new file:   apps/room/views.py
+        modified:   config/settings.py
+        modified:   config/urls.py
 
 
 

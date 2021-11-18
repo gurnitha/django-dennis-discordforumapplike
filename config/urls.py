@@ -10,6 +10,9 @@ urlpatterns = [
 
     # Base
     path('', include('apps.base.urls', namespace='base')),
+
+    # Room
+    path('', include('apps.room.urls', namespace='room')),
     
     # Admin
     path('admin/', admin.site.urls),

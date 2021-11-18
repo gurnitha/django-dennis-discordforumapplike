@@ -46,6 +46,7 @@ INSTALLED_APPS = [
 
     # Locals
     'apps.base.apps.BaseConfig',
+    'apps.room.apps.RoomConfig',
 ]
 
 MIDDLEWARE = [
