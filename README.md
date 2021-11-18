@@ -100,6 +100,14 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         modified:   apps/room/templates/room/room.html
 
 
+#### 3.3 Add link from home to room page
+
+        modified:   README.md
+        modified:   apps/base/templates/inc/room.html
+
+
+
+
 
 
 
