@@ -177,6 +177,12 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         modified:   apps/room/views.py
 
 
+#### 5.4 Add LIFO to Room model
+
+        modified:   README.md
+        modified:   apps/room/models.py
+
+
 
 
 
