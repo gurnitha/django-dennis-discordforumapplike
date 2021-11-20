@@ -222,7 +222,10 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         modified:   apps/base/views.py
 
 
+#### 6.3 Search Part 3 - Adding dynamic values in searach form
 
+        modified:   README.md
+        modified:   templates/inc/header.html
 
 
 
