@@ -250,6 +250,16 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         modified:   config/settings.py
 
 
+#### 7.2 Create register_login form VTUrls
+
+        modified:   README.md
+        new file:   apps/account/templates/account/register_login_form.html
+        new file:   apps/account/urls.py
+        modified:   apps/account/views.py
+        modified:   config/urls.py
+        modified:   templates/inc/header.html
+
+
 
 
 

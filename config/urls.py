@@ -11,6 +11,9 @@ urlpatterns = [
     # Base
     path('', include('apps.base.urls', namespace='base')),
 
+    # Account
+    path('', include('apps.account.urls', namespace='account')),
+
     # Room
     path('', include('apps.room.urls', namespace='room')),
     
