@@ -216,6 +216,12 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         modified:   apps/base/views.py
 
 
+#### 6.2 Search Part 2 - Using icontains
+
+        modified:   README.md
+        modified:   apps/base/views.py
+
+
 
 
 
