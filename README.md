@@ -206,6 +206,15 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         modified:   apps/room/views.py
 
 
+### 6. SEARCH
+
+
+#### 6.1 Search Part 1 - Basic
+
+        modified:   README.md
+        modified:   apps/base/templates/inc/topics.html
+        modified:   apps/base/views.py
+
 
 
 

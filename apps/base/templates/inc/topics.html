@@ -6,20 +6,19 @@
                 </div>
                 <ul class="topics__list">
                     <li>
-                        <a href="/" class="active">All <span>553</span></a>
+                        <a href="{% url 'base:home' %}" class="active">All <span>553</span></a>
                     </li>
+                    {% if topics %}
+                    {% for topic in topics %}
+                    <!-- Topic -->
                     <li>
-                        <a href="/">Python <span>232</span></a>
+                        <a href="{% url 'base:home' %}?q={{topic.name}}">{{topic.name|title}} <span>232</span></a>
                     </li>
-                    <li>
-                        <a href="/">JavaScript <span>122</span></a>
-                    </li>
-                    <li>
-                        <a href="/">React <span>57</span></a>
-                    </li>
-                    <li>
-                        <a href="/">Database <span>90</span></a>
-                    </li>
+                    <!-- Topic end -->
+                    {% endfor %}
+                    {% else %}
+                    <li>No topic found.</li>
+                    {% endif %}
                 </ul>
                 <a class="btn btn--link" href="topics.html">
                     More
