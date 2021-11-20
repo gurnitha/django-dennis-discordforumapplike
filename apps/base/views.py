@@ -2,6 +2,7 @@
 
 # Django modules
 from django.shortcuts import render
+from django.db.models import Q 
 
 # Locals
 from apps.room.models import Room, Topic
@@ -17,7 +18,13 @@ def home(request):
 
 	# Get topics by its name within rooms (OneToMany rel)
 	# rooms = Room.objects.filter(topic__name=q)
-	rooms = Room.objects.filter(topic__name__icontains=q)
+	rooms = Room.objects.filter(
+	
+		Q(topic__name__icontains=q) |
+		Q(name__icontains=q) |
+		Q(description__icontains=q)
+
+	)
 
 	# Get all topics
 	topics = Topic.objects.all()

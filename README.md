@@ -228,6 +228,10 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         modified:   templates/inc/header.html
 
 
+#### 6.4 Search Part 4 - Adding MULTIPLE dynamic values in searach form by using django.models Q() method
+
+        modified:   README.md
+        modified:   apps/base/views.py
 
 
 
