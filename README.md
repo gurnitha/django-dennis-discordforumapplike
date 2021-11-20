@@ -234,6 +234,20 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         modified:   apps/base/views.py
 
 
+### 7. REGISTER, LOGIN, FLASH MESSAGES AND LOGOUT
+
+
+#### 7.1 Create account app
+
+        modified:   README.md
+        new file:   apps/account/__init__.py
+        new file:   apps/account/admin.py
+        new file:   apps/account/apps.py
+        new file:   apps/account/migrations/__init__.py
+        new file:   apps/account/models.py
+        new file:   apps/account/tests.py
+        new file:   apps/account/views.py
+        modified:   config/settings.py
 
 
 
