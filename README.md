@@ -260,6 +260,13 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         modified:   templates/inc/header.html
 
 
+#### 7.3 Add template to register_login_form
+
+        modified:   README.md
+        modified:   apps/account/templates/account/register_login_form.html
+        modified:   apps/account/views.py
+
+
 
 
 

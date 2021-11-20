@@ -10,4 +10,8 @@ from django.shortcuts import render
 # NOTE: Do not name login to avoic conflic
 #       with the build in Django modules
 def loginPage(request):
-	return render(request, 'account/register_login_form.html')
+	page = 'login'
+	context = {
+		'page':page
+	}
+	return render(request, 'account/register_login_form.html', context)
