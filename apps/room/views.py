@@ -2,6 +2,7 @@
 
 # Django modules
 from django.shortcuts import render, redirect
+from django.http import HttpResponse
 from django.contrib.auth.decorators import login_required
 
 # Locals
@@ -35,6 +36,10 @@ def create_room(request):
 def update_room(request, pk):
 	room = Room.objects.get(id=pk)
 	form = RoomModelForm(instance=room)
+
+	# Restrict NOT-OWNER of the room to update
+	if request.user != room.host:
+		return HttpResponse('You are not allowed here!')
 
 	if request.method == 'POST':
 		form = RoomModelForm(request.POST, instance=room)

@@ -293,6 +293,12 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         modified:   apps/room/views.py
 
 
+#### 7.9 EDIT, DELETE menu - Showing Edit and Delete menu to logged in user only
+
+        modified:   README.md
+        modified:   apps/base/templates/inc/room.html
+        modified:   apps/room/views.py
+
 
 
 
