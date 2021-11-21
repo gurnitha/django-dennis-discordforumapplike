@@ -237,7 +237,7 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
 ### 7. REGISTER, LOGIN, FLASH MESSAGES AND LOGOUT
 
 
-#### 7.1 Create account app
+#### 7.1 LOGIN - Create account app
 
         modified:   README.md
         new file:   apps/account/__init__.py
@@ -250,7 +250,7 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         modified:   config/settings.py
 
 
-#### 7.2 Create register_login form VTUrls
+#### 7.2 LOGIN - Create register_login form VTUrls
 
         modified:   README.md
         new file:   apps/account/templates/account/register_login_form.html
@@ -260,21 +260,23 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         modified:   templates/inc/header.html
 
 
-#### 7.3 Add template to register_login_form
+#### 7.3 LOGIN - Add template to register_login_form
 
         modified:   README.md
         modified:   apps/account/templates/account/register_login_form.html
         modified:   apps/account/views.py
 
 
-#### 7.4 Add logic to loginPage view to process the login
+#### 7.4 LOGIN - Add logic to loginPage view to process the login
 
         modified:   README.md
         modified:   apps/account/views.py
         modified:   templates/base.html
 
 
+#### 7.5 Modified README file
 
+        modified:   README.md
 
 
 
