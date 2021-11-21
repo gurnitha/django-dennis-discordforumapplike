@@ -287,6 +287,10 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         modified:   templates/inc/header.html
 
 
+#### 7.8 RESTRICTION - Restrict un-loggedin user to Create, Update and Delete room
+
+        modified:   README.md
+        modified:   apps/room/views.py
 
 
 

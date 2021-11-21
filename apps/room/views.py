@@ -2,6 +2,7 @@
 
 # Django modules
 from django.shortcuts import render, redirect
+from django.contrib.auth.decorators import login_required
 
 # Locals
 from apps.room.model_forms import RoomModelForm
@@ -14,6 +15,8 @@ def room(request):
 
 # ------------ROOM CRUD------------
 
+
+@login_required(login_url='account:loginPage')
 def create_room(request):
 	form = RoomModelForm()
 
@@ -28,6 +31,7 @@ def create_room(request):
 	return render(request, 'room/room_create_update_form.html', context)
 
 
+@login_required(login_url='account:loginPage')
 def update_room(request, pk):
 	room = Room.objects.get(id=pk)
 	form = RoomModelForm(instance=room)
@@ -42,6 +46,7 @@ def update_room(request, pk):
 	return render(request, 'room/room_create_update_form.html', context)
 
 
+@login_required(login_url='account:loginPage')
 def delete_room(request, pk):
 	
 	room = Room.objects.get(id=pk)
