@@ -279,7 +279,12 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         modified:   README.md
 
 
+#### 7.6 LOGOUT - Logout user
 
+        modified:   README.md
+        modified:   apps/account/urls.py
+        modified:   apps/account/views.py
+        modified:   templates/inc/header.html
 
 
 

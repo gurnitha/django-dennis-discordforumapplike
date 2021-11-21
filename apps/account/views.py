@@ -57,3 +57,9 @@ def loginPage(request):
 		'page':page
 	}
 	return render(request, 'account/register_login_form.html', context)
+
+
+
+def logoutUser(request):
+	logout(request)
+	return redirect('base:home')
