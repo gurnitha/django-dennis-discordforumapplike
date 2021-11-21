@@ -1,4 +1,3 @@
-<!-- apps/base/templates/home/index.html -->
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
@@ -10,6 +9,18 @@
 	<!-- Header -->
 	{% include 'inc/header.html' %}
     <!-- Header end -->
+
+	<!-- Flash messages -->
+
+	{% if messages %}
+	<ul class="messages">
+	    {% for message in messages %}
+	    <li>{{ message }}</li>
+	    {% endfor %}
+	</ul>
+	{% endif %}
+
+	<!-- Flash messages end -->
 
 	{% block content %}{% endblock content %}
 

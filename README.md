@@ -267,6 +267,12 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         modified:   apps/account/views.py
 
 
+#### 7.4 Add logic to loginPage view to process the login
+
+        modified:   README.md
+        modified:   apps/account/views.py
+        modified:   templates/base.html
+
 
 
 
