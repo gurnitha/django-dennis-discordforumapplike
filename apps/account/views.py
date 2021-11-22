@@ -15,6 +15,10 @@ from django.contrib.auth import authenticate, login, logout
 def loginPage(request):
 	page = 'login'
 
+	# Restrict user from going to loginPage
+	if request.user.is_authenticated:
+		return redirect('base:home')
+
 	# 1. If POST request, get the input data
 	#    that is the username and password
 	if request.method == 'POST':

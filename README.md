@@ -311,6 +311,11 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         modified:   README.md
 
 
+#### 7.12 RESTRICTION - Restrict user from going to login page
+
+        modified:   README.md
+        modified:   apps/account/views.py
+
 
 
 
