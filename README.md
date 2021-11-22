@@ -306,6 +306,11 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         modified:   apps/room/views.py
 
 
+#### 7.11 Modified README file
+
+        modified:   README.md
+
+
 
 
 
