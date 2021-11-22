@@ -339,6 +339,11 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         modified:   apps/account/views.py
 
 
+#### 8.3 REGISTER Part 3 - Display name of the logged in user on the menu
+
+        modified:   README.md
+        modified:   templates/inc/header.html
+
 
 
 
