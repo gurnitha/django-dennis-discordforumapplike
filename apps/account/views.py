@@ -75,6 +75,24 @@ def registerUser(request):
 
 	form = UserCreationForm()
 
+	if request.method == 'POST':
+		form = UserCreationForm(request.POST)
+
+		if form.is_valid():
+			# It means to access right away the
+			# user that just created
+			user = form.save(commit=False)
+			user.username = user.username.lower()
+			user.save()
+			# If register success, log in the user, then
+			# redirect him to the home page
+			login(request, user)
+			return redirect('base:home')
+
+		else:
+			messages.error(request, 'An error occurred during the registration!')
+
+
 	context = {
 		'form':form,
 	}

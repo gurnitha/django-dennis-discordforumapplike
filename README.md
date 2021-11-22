@@ -333,6 +333,13 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         modified:   apps/account/views.py
 
 
+#### 8.2 REGISTER Part 2 - Add logic to registerUser view method to process the registration + test
+
+        modified:   README.md
+        modified:   apps/account/views.py
+
+
+
 
 
 
