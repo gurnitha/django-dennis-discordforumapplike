@@ -234,7 +234,7 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         modified:   apps/base/views.py
 
 
-### 7. REGISTER, LOGIN, FLASH MESSAGES AND LOGOUT
+### 7. LOGIN, FLASH MESSAGES, LOGOUT AND RESTRICTION
 
 
 #### 7.1 LOGIN - Create account app
@@ -287,38 +287,39 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         modified:   templates/inc/header.html
 
 
-#### 7.8 RESTRICTION - Restrict un-loggedin user to Create, Update and Delete room
+#### 7.8 LOGIN RESTRICTION - Restrict un-loggedin user to Create, Update and Delete room
 
         modified:   README.md
         modified:   apps/room/views.py
 
 
-#### 7.9 EDIT, DELETE menu - Showing Edit and Delete menu to logged in user only
+#### 7.9 LOGIN (Edit, Delete menu) - Showing Edit and Delete menu to logged in user only
 
         modified:   README.md
         modified:   apps/base/templates/inc/room.html
         modified:   apps/room/views.py
 
 
-#### 7.10 RESTRICTION - Restrict un-loggedin user to Create and Update room
+#### 7.10 LOGIN RESTRICTION - Restrict un-loggedin user to Create and Update room
 
         modified:   README.md
         modified:   apps/room/views.py
 
 
-#### 7.11 Modified README file
+#### 7.11 Modified README.md file
 
         modified:   README.md
 
 
-#### 7.12 RESTRICTION - Restrict user from going to login page
+#### 7.12 LOGIN RESTRICTION - Restrict user from going to login page
 
         modified:   README.md
         modified:   apps/account/views.py
 
 
+#### 7.13 Modified README.md file
 
-
+        modified:   README.md
 
 
 
