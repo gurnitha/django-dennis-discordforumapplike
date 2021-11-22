@@ -5,6 +5,7 @@ from django.shortcuts import render, redirect
 from django.contrib import messages
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate, login, logout
+from django.contrib.auth.forms import UserCreationForm
 
 # Locals
 
@@ -67,3 +68,15 @@ def loginPage(request):
 def logoutUser(request):
 	logout(request)
 	return redirect('base:home')
+
+
+
+def registerUser(request):
+
+	form = UserCreationForm()
+
+	context = {
+		'form':form,
+	}
+	return render(request, 'account/register_login_form.html', context)
+

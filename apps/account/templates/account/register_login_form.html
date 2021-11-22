@@ -48,7 +48,7 @@
 
         <div class="auth__action">
           <p>Haven't signed up yet?</p>
-          <a href="#" class="btn btn--link">Sign Up</a>
+          <a href="{% url 'account:registerUser' %}" class="btn btn--link">Sign Up</a>
         </div>
       </div>
     </div>
@@ -69,12 +69,23 @@
         <form class="form" action="" method="POST">
           {% csrf_token %}
 
-
-          <div class="form__group form__group">
-            <label for="room_name">Label</label>
-            Field
+<!--           <div class="form__group form__group">
+            <label for="room_name">Usename</label>
+            <input 
+              type="text" 
+              name="username" 
+              placeholder="Enter username">
           </div>
 
+          <div class="form__group form__group">
+            <label for="room_name">Password</label>
+            <input 
+              type="password" 
+              name="password" 
+              placeholder="Enter password">
+          </div> -->
+
+          {{form.as_p}}
 
           <button class="btn btn--main" type="submit">
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
@@ -93,7 +104,7 @@
 
         <div class="auth__action">
           <p>Already signed up yet?</p>
-          <a href="#" class="btn btn--link">Sign Up</a>
+          <a href="{% url 'account:loginPage' %}" class="btn btn--link">Sign In</a>
         </div>
       </div>
     </div>

@@ -322,6 +322,16 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         modified:   README.md
 
 
+### 8. REGISTER
+
+
+#### 8.1 REGISTER Part 1 - Create register form VTUrls
+
+        modified:   README.md
+        modified:   apps/account/templates/account/register_login_form.html
+        modified:   apps/account/urls.py
+        modified:   apps/account/views.py
+
 
 
 
