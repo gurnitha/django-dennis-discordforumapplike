@@ -21,6 +21,10 @@ def room(request):
 def create_room(request):
 	form = RoomModelForm()
 
+	# Restrict NOT-OWNER of the room to update
+	if request.user != room.host:
+		return HttpResponse('You are not allowed here!')
+		
 	if request.method == 'POST':
 		# print(request.POST)
 		form = RoomModelForm(request.POST)
@@ -55,7 +59,11 @@ def update_room(request, pk):
 def delete_room(request, pk):
 	
 	room = Room.objects.get(id=pk)
-	
+
+	# Restrict NOT-OWNER of the room to update
+	if request.user != room.host:
+		return HttpResponse('You are not allowed here!')
+
 	if request.method == 'POST':
 		room.delete()
 		return redirect('base:home')
