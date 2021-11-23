@@ -345,6 +345,14 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         modified:   templates/inc/header.html
 
 
+### 9. ROOM (home page)
+
+
+#### 9.1 ROOM - Added room availble, time ago, and limit the topics
+
+        modified:   README.md
+        modified:   apps/base/templates/inc/room.html
+        modified:   apps/base/views.py
 
 
 
