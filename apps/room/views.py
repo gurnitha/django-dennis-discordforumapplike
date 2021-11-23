@@ -7,7 +7,7 @@ from django.contrib.auth.decorators import login_required
 
 # Locals
 from apps.room.model_forms import RoomModelForm
-from apps.room.models import Room
+from apps.room.models import Room, Topic, Message
 
 # Create your views here.
 
@@ -17,9 +17,23 @@ def room_single(request, pk):
 	
 	room_messages = room.message_set.all().order_by('-created')
 
+	participants = room.participants.all()
+
+	# Process the form to create message/comment
+	if request.method == 'POST':
+		message = Message.objects.create(
+			user = request.user,
+			room = room,
+			body = request.POST.get('body')
+		)
+		# Return to the room_single which has the room id
+		# that just created
+		return redirect('room:room_single', pk=room.id)
+
 	context = {
 		'room':room,
-		'room_messages':room_messages
+		'room_messages':room_messages,
+		'participants':participants,
 	}
 	return render(request, 'room/room.html', context) 
 

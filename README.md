@@ -380,6 +380,23 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         modified:   apps/room/views.py
 
 
+#### 10.2 CRUD - CREATE : Add logic to room_single view method to create message
+
+        modified:   README.md
+        modified:   apps/room/templates/inc/room-content.html
+        modified:   apps/room/views.py
+
+
+#### 10.3 CRUD - PARTICIPANTS: Add ManyToMany rel between User and Room model, run migrations and display participatns
+
+        modified:   README.md
+        new file:   apps/room/migrations/0003_auto_20211123_1051.py
+        modified:   apps/room/models.py
+        modified:   apps/room/templates/inc/participants.html
+        modified:   apps/room/templates/inc/room-content.html
+        modified:   apps/room/views.py
+
+
 
 
 
