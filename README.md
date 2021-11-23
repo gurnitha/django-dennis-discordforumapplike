@@ -363,8 +363,21 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         modified:   apps/room/views.py
 
 
+#### 9.3 ROOM - Single room more detail and display room_messages
+
+        modified:   README.md
+        modified:   apps/room/templates/inc/room-content.html
+        modified:   apps/room/views.py
 
 
+### 10. CRUD USER MESSAGES (COMMENTS)
+
+
+#### 10.1 CRUD - CREATE form message/comment
+
+        modified:   README.md
+        modified:   apps/room/templates/inc/room-content.html
+        modified:   apps/room/views.py
 
 
 
