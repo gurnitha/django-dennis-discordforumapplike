@@ -26,6 +26,10 @@ def room_single(request, pk):
 			room = room,
 			body = request.POST.get('body')
 		)
+
+		# Add user to participants
+		room.participants.add(request.user)
+		
 		# Return to the room_single which has the room id
 		# that just created
 		return redirect('room:room_single', pk=room.id)
