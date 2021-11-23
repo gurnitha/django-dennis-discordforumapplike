@@ -426,7 +426,11 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         new file:   images/dynamics2.jpg
 
 
+#### 11.7 Moved images to config/images
 
+        modified:   README.md
+        renamed:    images/dynamics1.jpg -> config/images/dynamics1.jpg
+        renamed:    images/dynamics2.jpg -> config/images/dynamics2.jpg
 
 
 
