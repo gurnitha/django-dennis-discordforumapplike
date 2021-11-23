@@ -416,6 +416,14 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         deleting its own message
 
 
+#### 11.6 CRUD user message images
+
+![Algorithm schema](./config/images/dynamics1.jpg)
+![Algorithm schema](./config/images/dynamics2.jpg)
+
+        modified:   README.md
+        new file:   images/dynamics1.jpg
+        new file:   images/dynamics2.jpg
 
 
 
