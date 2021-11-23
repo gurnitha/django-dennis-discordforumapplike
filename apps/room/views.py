@@ -11,8 +11,12 @@ from apps.room.models import Room
 
 # Create your views here.
 
-def room(request):
-	return render(request, 'room/room.html') 
+def room_single(request, pk):
+	room = Room.objects.get(id=pk)
+	context = {
+		'room':room
+	}
+	return render(request, 'room/room.html', context) 
 
 # ------------ROOM CRUD------------
 

@@ -355,6 +355,13 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         modified:   apps/base/views.py
 
 
+#### 9.2 ROOM - Single room display
+
+        modified:   README.md
+        modified:   apps/base/templates/inc/room.html
+        modified:   apps/room/urls.py
+        modified:   apps/room/views.py
+
 
 
 

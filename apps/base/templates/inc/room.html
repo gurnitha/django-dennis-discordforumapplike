@@ -69,14 +69,14 @@
 
                         <!-- Room list content: Title, Description -->
                         <div class="roomListRoom__content">
-                            <a href="{% url 'room:room' %}">{{room.name|title}}</a>
+                            <a href="{% url 'room:room_single' room.id %}">{{room.name|title}}</a>
                             <p>{{room.description|truncatewords:20|safe}}</p>
                         </div>
                         <!-- Room list content: Title, Description end -->
 
                         <!-- Room list footer: Jointed, Topic -->
                         <div class="roomListRoom__meta">
-                            <a href="{% url 'room:room' %}" class="roomListRoom__joined">
+                            <a href="{% url 'room:room_single' room.id  %}" class="roomListRoom__joined">
                                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
                                     <title>user-group</title>
                                     <path
