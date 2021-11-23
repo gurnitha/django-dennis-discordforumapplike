@@ -29,7 +29,7 @@ def room_single(request, pk):
 
 		# Add user to participants
 		room.participants.add(request.user)
-		
+
 		# Return to the room_single which has the room id
 		# that just created
 		return redirect('room:room_single', pk=room.id)
@@ -96,6 +96,23 @@ def delete_room(request, pk):
 		return redirect('base:home')
 
 	context = {'obj':room}
+	return render(request, 'room/delete_confirm.html', context)
+
+
+@login_required(login_url='account:loginPage')
+def delete_message(request, pk):
+	
+	message = Message.objects.get(id=pk)
+
+	# Restrict NOT-OWNER of the room to update
+	if request.user != message.user:
+		return HttpResponse('You are not allowed here!')
+
+	if request.method == 'POST':
+		message.delete()
+		return redirect('base:home')
+
+	context = {'obj':message}
 	return render(request, 'room/delete_confirm.html', context)
 
 # ------------ROOM CRUD------------

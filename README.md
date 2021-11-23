@@ -403,6 +403,18 @@ This is my exercise base on the tutorials made by Dennis on Youtube.
         modified:   apps/room/views.py
 
 
+#### 10.5 CRUD - PARTICIPANTS: Delete message only by its owner
+
+        modified:   README.md
+        modified:   apps/room/templates/inc/room-content.html
+        modified:   apps/room/urls.py
+        modified:   apps/room/views.py
+
+        NOTE:
+
+        The owner of the message must logged in before
+        deleting its own message
+
 
 
 
